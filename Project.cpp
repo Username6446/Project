@@ -1,10 +1,8 @@
-﻿// Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+﻿#include "Zoo.h"
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    Zoo myZoo;
+    myZoo.Run();
+    return 0;
 }
-

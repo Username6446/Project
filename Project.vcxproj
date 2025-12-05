@@ -127,6 +127,7 @@
     <ClCompile Include="Bird.cpp" />
     <ClCompile Include="FeedingRecord.cpp" />
     <ClCompile Include="Food.cpp" />
+    <ClCompile Include="Monkey.cpp" />
     <ClCompile Include="Project.cpp" />
     <ClCompile Include="Reptile.cpp" />
     <ClCompile Include="Zoo.cpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="Bird.h" />
     <ClInclude Include="FeedingRecord.h" />
     <ClInclude Include="Food.h" />
+    <ClInclude Include="Monkey.h" />
     <ClInclude Include="Reptile.h" />
     <ClInclude Include="Zoo.h" />
   </ItemGroup>

@@ -1,9 +1,9 @@
 #pragma once
 #include "Animal.h"
 
-class Bird : public Animal {
+class Monkey : public Animal {
 public:
-    Bird(string name, string species, int age);
+    Monkey(string name, string species, int age);
 
     string getType() const override;
     void display() const override;

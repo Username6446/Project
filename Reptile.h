@@ -1,10 +1,10 @@
 #pragma once
 #include "Animal.h"
-class Reptile : public Animal
-{
-	bool isVenomous;
-	string scaleType;
-public:
-	Reptile(string type, string name, size_t age, double weight, bool isVenomous, string scaleType);
-};
 
+class Reptile : public Animal {
+public:
+    Reptile(string name, string species, int age);
+
+    string getType() const override;
+    void display() const override;
+};
